@@ -1,0 +1,50 @@
+.sidebar_container {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  border-right: solid lightslategray 1px;
+  min-height: 100vh;
+  min-width: 150;
+  justify-content: space-evenly;
+  margin-left: 40px;
+}
+
+.sidebar_button_container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  cursor: pointer;
+  border-radius: 30px;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sidebar_button_container:hover {
+  background-color: #0f5785;
+}
+
+.sidebar_button_text {
+  color: white;
+  font-weight: 400;
+  font-size: larger;
+  margin: 10px;
+  pointer-events: none;
+}
+.sidebar_icon {
+  color: white;
+  font-size: 30px !important;
+  margin: 10px;
+  pointer-events: none;
+}
+
+.sidebar_tweet_button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #39a2f2;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+}
